@@ -89,8 +89,5 @@ let g:mucomplete#enable_auto_at_startup = 1
 " Load all packages now
 packloadall
 
-" Start NERDTree and leave the cursor in it.
-autocmd VimEnter * NERDTree
-
 " Generate help tags from all packages and ignore errors
 silent! helptags ALL
